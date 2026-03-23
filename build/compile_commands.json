@@ -1,25 +1,25 @@
 [
 {
   "directory": "/Users/briggs/Desktop/Personal Projects/TictactoeClean Project/build",
-  "command": "/usr/bin/clang -DTICTACTOELIB_EXPORTS -DTikTacToeLib_EXPORTS -I\"/Users/briggs/Desktop/Personal Projects/TictactoeClean Project/include\" -g -std=gnu11 -arch arm64 -fPIC -o CMakeFiles/TikTacToeLib.dir/src/gameBoard.c.o -c \"/Users/briggs/Desktop/Personal Projects/TictactoeClean Project/src/gameBoard.c\"",
+  "command": "/usr/bin/clang -DTICTACTOELIB_EXPORTS -DTikTacToeLib_EXPORTS -I\"/Users/briggs/Desktop/Personal Projects/TictactoeClean Project/include\" -O3 -DNDEBUG -std=gnu11 -arch arm64 -fPIC -o CMakeFiles/TikTacToeLib.dir/src/gameBoard.c.o -c \"/Users/briggs/Desktop/Personal Projects/TictactoeClean Project/src/gameBoard.c\"",
   "file": "/Users/briggs/Desktop/Personal Projects/TictactoeClean Project/src/gameBoard.c",
   "output": "CMakeFiles/TikTacToeLib.dir/src/gameBoard.c.o"
 },
 {
   "directory": "/Users/briggs/Desktop/Personal Projects/TictactoeClean Project/build",
-  "command": "/usr/bin/clang -DTICTACTOELIB_EXPORTS -DTikTacToeLib_EXPORTS -I\"/Users/briggs/Desktop/Personal Projects/TictactoeClean Project/include\" -g -std=gnu11 -arch arm64 -fPIC -o CMakeFiles/TikTacToeLib.dir/src/gameManager.c.o -c \"/Users/briggs/Desktop/Personal Projects/TictactoeClean Project/src/gameManager.c\"",
+  "command": "/usr/bin/clang -DTICTACTOELIB_EXPORTS -DTikTacToeLib_EXPORTS -I\"/Users/briggs/Desktop/Personal Projects/TictactoeClean Project/include\" -O3 -DNDEBUG -std=gnu11 -arch arm64 -fPIC -o CMakeFiles/TikTacToeLib.dir/src/gameManager.c.o -c \"/Users/briggs/Desktop/Personal Projects/TictactoeClean Project/src/gameManager.c\"",
   "file": "/Users/briggs/Desktop/Personal Projects/TictactoeClean Project/src/gameManager.c",
   "output": "CMakeFiles/TikTacToeLib.dir/src/gameManager.c.o"
 },
 {
   "directory": "/Users/briggs/Desktop/Personal Projects/TictactoeClean Project/build",
-  "command": "/usr/bin/clang -DTICTACTOELIB_EXPORTS -DTikTacToeLib_EXPORTS -I\"/Users/briggs/Desktop/Personal Projects/TictactoeClean Project/include\" -g -std=gnu11 -arch arm64 -fPIC -o CMakeFiles/TikTacToeLib.dir/src/ai.c.o -c \"/Users/briggs/Desktop/Personal Projects/TictactoeClean Project/src/ai.c\"",
+  "command": "/usr/bin/clang -DTICTACTOELIB_EXPORTS -DTikTacToeLib_EXPORTS -I\"/Users/briggs/Desktop/Personal Projects/TictactoeClean Project/include\" -O3 -DNDEBUG -std=gnu11 -arch arm64 -fPIC -o CMakeFiles/TikTacToeLib.dir/src/ai.c.o -c \"/Users/briggs/Desktop/Personal Projects/TictactoeClean Project/src/ai.c\"",
   "file": "/Users/briggs/Desktop/Personal Projects/TictactoeClean Project/src/ai.c",
   "output": "CMakeFiles/TikTacToeLib.dir/src/ai.c.o"
 },
 {
   "directory": "/Users/briggs/Desktop/Personal Projects/TictactoeClean Project/build",
-  "command": "/usr/bin/clang  -I\"/Users/briggs/Desktop/Personal Projects/TictactoeClean Project/include\" -g -std=gnu11 -arch arm64 -o CMakeFiles/TikTacToe.dir/src/main.c.o -c \"/Users/briggs/Desktop/Personal Projects/TictactoeClean Project/src/main.c\"",
+  "command": "/usr/bin/clang  -I\"/Users/briggs/Desktop/Personal Projects/TictactoeClean Project/include\" -O3 -DNDEBUG -std=gnu11 -arch arm64 -o CMakeFiles/TikTacToe.dir/src/main.c.o -c \"/Users/briggs/Desktop/Personal Projects/TictactoeClean Project/src/main.c\"",
   "file": "/Users/briggs/Desktop/Personal Projects/TictactoeClean Project/src/main.c",
   "output": "CMakeFiles/TikTacToe.dir/src/main.c.o"
 }

@@ -7,7 +7,7 @@
 			[
 				{
 					"build" : ".",
-					"jsonFile" : "directory-.-Debug-9ad1a58d4644cf6543fa.json",
+					"jsonFile" : "directory-.-Release-9ad1a58d4644cf6543fa.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.30"
@@ -21,7 +21,7 @@
 					]
 				}
 			],
-			"name" : "Debug",
+			"name" : "Release",
 			"projects" : 
 			[
 				{
@@ -42,14 +42,14 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "TikTacToe::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-TikTacToe-Debug-f9813816145e9d311938.json",
+					"jsonFile" : "target-TikTacToe-Release-e6a03ff3d157afb820c0.json",
 					"name" : "TikTacToe",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "TikTacToeLib::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-TikTacToeLib-Debug-7fe1727ceff2c6ff86a9.json",
+					"jsonFile" : "target-TikTacToeLib-Release-2279449b4eb5355d833f.json",
 					"name" : "TikTacToeLib",
 					"projectIndex" : 0
 				}

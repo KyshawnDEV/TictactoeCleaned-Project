@@ -6,7 +6,7 @@ C_DEFINES = -DTICTACTOELIB_EXPORTS -DTikTacToeLib_EXPORTS
 
 C_INCLUDES = -I"/Users/briggs/Desktop/Personal Projects/TictactoeClean Project/include"
 
-C_FLAGSarm64 = -g -std=gnu11 -arch arm64 -fPIC
+C_FLAGSarm64 = -O3 -DNDEBUG -std=gnu11 -arch arm64 -fPIC
 
-C_FLAGS = -g -std=gnu11 -arch arm64 -fPIC
+C_FLAGS = -O3 -DNDEBUG -std=gnu11 -arch arm64 -fPIC
 

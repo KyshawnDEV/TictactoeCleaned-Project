@@ -54,7 +54,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -std=gnu11 -arch arm64 -fPIC"
+					"fragment" : "-O3 -DNDEBUG -std=gnu11 -arch arm64 -fPIC"
 				}
 			],
 			"defines" : 
