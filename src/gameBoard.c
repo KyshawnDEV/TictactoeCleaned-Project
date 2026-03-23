@@ -178,6 +178,19 @@ void printBoard() {
 }
 
 /*
+    getCell()
+
+    Returns the raw value stored at a given cell.
+    -1 is returned for out-of-bounds requests.
+*/
+int getCell(int row, int col) {
+    if (row < 0 || row >= BOARD_SIZE || col < 0 || col >= BOARD_SIZE) {
+        return -1;
+    }
+    return board[row][col];
+}
+
+/*
     resetBoard()
 
     Clears the board by setting every cell back to 0.

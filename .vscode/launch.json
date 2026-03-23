@@ -11,6 +11,18 @@
             "program": "${workspaceFolder}/build/TikTacToe",
             "args": [],
             "cwd": "${workspaceRoot}"
+        },
+        {
+            "name": "Launch PySide6 GUI",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/python/app.py",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal",
+            "env": {
+                "TICTACTOE_LIB_PATH": "${workspaceFolder}/build/libTikTacToeLib.dylib"
+            },
+            "preLaunchTask": "Build C Library"
         }
     ]
 }

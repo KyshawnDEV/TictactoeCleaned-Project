@@ -22,6 +22,10 @@ TTT_API int checkBoardState();
 // Prints the current board to the console
 TTT_API void printBoard();
 
+// Returns the value stored at a given cell:
+// 0 = empty, 1 = Player 1 (X), 2 = Player 2 (O), -1 = invalid location
+TTT_API int getCell(int row, int col);
+
 // Resets the board to empty
 TTT_API void resetBoard();
 
